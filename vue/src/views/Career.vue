@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="career">
     <Header/>
     <Content/>
     <Footer/>
@@ -20,5 +20,4 @@ export default {
     Footer,
   },
 };
-
 </script>

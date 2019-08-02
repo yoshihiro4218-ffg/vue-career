@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
@@ -23,20 +22,20 @@ export default {
 </script>
 
 <style>
-#footer{
-  background-color: #52C5F2;
-  width:100%;
-  height:60px;
-}
-.container{
-  width:100%;
-  height:100%;
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
-  justify-content: center;
-}
-img{
-  text-align: center;
-}
+  #footer{
+    background-color: #11A0D9;
+    width:100%;
+    height:60px;
+  }
+  .container{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  img{
+    text-align: center;
+  }
 </style>
