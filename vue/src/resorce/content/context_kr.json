@@ -1,0 +1,13 @@
+{
+  "kr": {
+    "greet" : "안녕하세요",
+    "name" : "김덕구",
+    "career": {
+      "1" : {
+        "title" : "Work Experience",
+        "content" : "something..."
+      }
+    }
+  }
+
+}

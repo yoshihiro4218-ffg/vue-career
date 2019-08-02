@@ -14,5 +14,15 @@ export default new Router({
       name: 'career',
       component: Career,
     },
+    {
+      path: '/career',
+      name: 'career',
+      component: Career,
+    },
+    {
+      path: '*',
+      name: 'error',
+      component: Career,
+    },
   ],
 });

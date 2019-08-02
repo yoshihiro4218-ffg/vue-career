@@ -8,13 +8,18 @@
       </div>
     </div>
     <div class="container">
-      <div class="memo"></div>
+      <div class="memo" ref="mm"></div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  created() {
+    this.$nextThick(() => {
+      const { mm } = this.$refs;
+    });
+  },
   methods: {
     name() {
 
