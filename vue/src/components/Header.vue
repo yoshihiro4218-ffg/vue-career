@@ -13,7 +13,7 @@ export default {
   created() {
     this.$nextTick(() => {
       const { dot } = this.$refs;
-      dot.style.backgroundImage = `url(${this.$store.state.profile_url})`;
+      dot.style.backgroundImage = `url(${this.$store.state.profileUrl})`;
     });
   },
 };

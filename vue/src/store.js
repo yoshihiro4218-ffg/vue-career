@@ -6,12 +6,20 @@ import base from './resorce/content/base.js';
 
 Vue.use(Vuex);
 // eslint-disable-next-line camelcase
-const { profile_url, contact_url, accounts } = base;
+const {
+  profileUrl,
+  contactUrl,
+  accounts,
+  career,
+  githubUrl,
+} = base;
 export default new Vuex.Store({
   state: {
-    profile_url,
-    contact_url,
+    profileUrl,
+    contactUrl,
     accounts,
+    career,
+    githubUrl,
   },
   mutations: {
 

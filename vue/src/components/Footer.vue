@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     gogit() {
-      window.open(this.git_url);
+      window.open(this.$store.state.githubUrl);
     },
   },
 };

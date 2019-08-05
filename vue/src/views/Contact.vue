@@ -20,7 +20,7 @@ export default {
     Nav,
   },
   created() {
-    this.contact_url = this.$store.state.contact_url;
+    this.contact_url = this.$store.state.contactUrl;
   },
 };
 </script>
