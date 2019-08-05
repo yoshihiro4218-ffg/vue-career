@@ -1,12 +1,12 @@
 export default {
   // header profile image url
-  profileUrl: 'https://avatars3.githubusercontent.com/u/20182365?s=460&v=4',
+  profileUrl: 'https://avatars3.githubusercontent.com/u/51691482?s=460&v=4',
   // google survey url
-  contactUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSePBDU4i5IGKP-PXYMRnYx5amCyHK7eDEyd88yLQBJWBAhtrw/viewform?usp=sf_link',
+  contactUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScI83DoFTtzm3qjlJnGl3J3DoUChNvPNv6Vuzo-jSTLMCaZFQ/viewform?usp=sf_link',
   // footer github url
-  githubUrl: 'https://github.com/deokgoo',
+  githubUrl: 'https://github.com/yoshihiro4218-ffg',
   accounts: {
-    github: 'https://github.com/deokgoo',
+    github: 'https://github.com/yoshihiro4218-ffg',
     facebook: 'https://facebook.com',
     twitter: 'https://twitter.com',
   },
