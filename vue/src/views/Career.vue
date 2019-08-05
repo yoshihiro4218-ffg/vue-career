@@ -33,9 +33,11 @@ export default {
     justify-content: center;
 }
 .memo{
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   margin: 40px;
   width: 60vw;
   background-color: white;
+  border-radius: 20px;
 }
 </style>

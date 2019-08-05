@@ -43,7 +43,9 @@ export default {
 .survey{
   margin: 40px;
   width: 60vw;
-  height: 800px;
+  min-height: 800px;
+  height: auto;
   background-color: white;
+  border-radius: 20px;
 }
 </style>
