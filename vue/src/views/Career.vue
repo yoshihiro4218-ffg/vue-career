@@ -1,12 +1,6 @@
 <template>
   <div class="career">
-    <div class="container">
-      <div id="nav">
-          <button>Career</button>
-          <button>Accounts</button>
-          <button>Contact</button>
-      </div>
-    </div>
+    <Nav></Nav>
     <div class="container">
       <div class="memo" ref="mm"></div>
     </div>
@@ -14,9 +8,12 @@
 </template>
 
 <script>
+import Nav from '../components/Nav.vue';
 
 export default {
-  name: 'home',
+  components: {
+    Nav,
+  },
 };
 </script>
 <style>
@@ -34,26 +31,11 @@ export default {
     align-items: center;
     vertical-align: middle;
     justify-content: center;
-  }
+}
 .memo{
   height: 500px;
   margin: 40px;
   width: 60vw;
   background-color: white;
 }
-button{
-  background-color:#0A4B73;
-  color: white;
-  border: none;
-  height: 35px;
-  width: 10vw;
-  min-width: 100px;
-  margin: 0px 1vw;
-  border-radius: 15px;
-  overflow: hidden;
-  font-family: 'Nanum Pen Script', cursive;
-  font-weight: 100;
-  font-size: 25px;
-}
-
 </style>

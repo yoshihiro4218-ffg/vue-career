@@ -2,7 +2,7 @@
     <div id="header">
       <div id="profile">
         <div class="dotBox">
-          <div class="dot"></div>
+          <div class="dot" ref="dot"></div>
         </div>
       </div>
     </div>
@@ -10,7 +10,12 @@
 
 <script>
 export default {
-
+  created() {
+    this.$nextTick(() => {
+      const { dot } = this.$refs;
+      dot.style.backgroundImage = `url(${this.$store.state.profile_url})`;
+    });
+  },
 };
 </script>
 
@@ -32,7 +37,6 @@ export default {
   height: 120px;
   width: 120px;
   background-color: #bbb;
-  background-image: url('https://avatars3.githubusercontent.com/u/20182365?s=460&v=4');
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
